@@ -1,1 +1,10 @@
-/target
+/target/
+
+*.log
+
+.vscode/
+.idea/
+
+.DS_Store
+
+*~

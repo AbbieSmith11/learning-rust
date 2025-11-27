@@ -1,4 +1,5 @@
-use library::is_leap;
+use leapyear_kata::is_leap;
+
 use std::io;
 
 fn main() {

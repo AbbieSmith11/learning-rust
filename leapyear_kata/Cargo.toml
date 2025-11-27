@@ -1,0 +1,8 @@
+[package]
+name = "leapyear_kata"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name= "leapyear_kata"
+path = "src/lib.rs"
