@@ -1,11 +1,11 @@
-pub fn is_leap(year: i32) -> bool{
+pub fn is_leap(year: i32) -> bool {
     let result: bool;
 
     if is_divisible_by_400(year) {
         result = true;
     } else if is_divisible_by_100(year) && !is_divisible_by_400(year) {
         result = false;
-    } else if is_divisible_by_4(year){
+    } else if is_divisible_by_4(year) {
         result = true;
     } else {
         result = false;
@@ -28,7 +28,6 @@ pub fn is_divisible_by_400(year: i32) -> bool {
     let result_divided_by_400 = year % 400;
     return result_divided_by_400 == 0;
 }
-
 
 #[cfg(test)]
 mod tests {
