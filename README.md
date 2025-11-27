@@ -7,11 +7,11 @@ This project uses a Cargo workspace so all crates can share dependencies, toolin
 Each crate is fully independent.
 
 ### To run one:
-cd leapyear_kata
+cd leapyear_kata  
 cargo run
 
 ### To test one:
-cd leapyear_kata
+cd leapyear_kata  
 cargo test
 
 ## 🧠 Why a Workspace?
@@ -21,8 +21,8 @@ cargo test
 - Each crate stays lightweight and separate
 - Easy to add new learning projects
 
-To add a new crate:
-cargo new new_project_name
+To add a new crate:  
+cargo new new_project_name  
 Then add it to the workspace members in the root Cargo.toml.
 
 ## 🧹 Best Practices Followed
