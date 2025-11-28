@@ -61,7 +61,7 @@ fn main() {
         println!("You guessed: {guess}");
 
         // The cmp method compares two values and can be called on anything that can be compared.
-        // It then returns a variant on=f the ordering enum.
+        // It then returns a variant of the ordering enum.
         // The match expression is used to decide what to do next based on which variant was returned.
         // A match expression is made up of arms. Rust takes the value given to match and looks through each arm pattern in turn and looks for a match.
         match guess.cmp(&secret_number) {
